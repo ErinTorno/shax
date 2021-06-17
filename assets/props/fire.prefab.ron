@@ -1,0 +1,20 @@
+#![enable(implicit_some)] (
+    sprite: (
+        atlas:   "../props.png",
+        columns: 10,
+        rows:    10,
+        anim:    Animated(
+            animations: {
+                "idle": (delay: 0.08333, frames: [
+                    (index: 60, tint: Tumbleweed),
+                    (index: 61, tint: Chardonay),
+                    (index: 62, tint: Picasso),
+                    (index: 63, tint: Chardonay),
+                    (index: 64, tint: Picasso),
+                    (index: 65, tint: Chardonay),
+                    (index: 66, tint: Chardonay),
+                ]),
+            },
+        ),
+    ),
+)

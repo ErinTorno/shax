@@ -1,0 +1,8 @@
+#![enable(implicit_some)] (
+    sprite: (
+        atlas:   "../props.png",
+        columns: 10,
+        rows:    10,
+        anim:    Static(index: 31, tint: JaggedIce),
+    ),
+)

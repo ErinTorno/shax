@@ -1,0 +1,15 @@
+#![enable(implicit_some)] (
+    sprite: (
+        atlas:   "../props.png",
+        columns: 10,
+        rows:    10,
+        anim:    Animated(
+            default: "up",
+            animations: {
+                "up":   (delay: 1., frames: [(index: 40, tint: Picasso)]),
+                "down": (delay: 1., frames: [(index: 41, tint: Picasso)]),
+            },
+        ),
+    ),
+    script: File("moving_spike.lua"),
+)

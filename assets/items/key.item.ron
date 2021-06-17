@@ -1,0 +1,11 @@
+#![enable(implicit_some)] (
+    id:     "key",
+    name:   "key",
+    slot:   Dungeon,
+    sprite: (
+        atlas:   "../items.png",
+        columns: 10,
+        rows:    10,
+        anim:    Static(index: 20, tint: Sandwisp),
+    ),
+)
